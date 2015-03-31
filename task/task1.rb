@@ -1,0 +1,1 @@
+class Employ    def initialize(emproy_id,name)    @employ_id = employ_id	@name = name  end  endclass FulltimeEmploy < Employ    def initialize(salary)	  @salary = salary	endendclass ParttimeEmploy < Employ   def  initialize(hourly_pay)      @hourly_pay = hourly_pay   end end
